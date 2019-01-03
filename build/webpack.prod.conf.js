@@ -103,7 +103,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       cacheId: 'nicememes',
       filename: 'service-worker.js',
       staticFileGlobs: ['dist/**/*.{js,html,css,wav}'],
-      minify: true,
+      minify: false,
       stripPrefix: 'dist/'
     })
   ]
