@@ -1,7 +1,8 @@
 // audios
-import AgoraEntendiShort from './Agoraeuentendishort.wav'
-import AgoraEntendiFull from './Agoraeuentendifull.wav'
-import BaDumTss from './Badumtss.wav'
+import Acertomizeravi from './Acertomizeravi.wav'
+import Agoraentendishort from './Agoraeuentendishort.wav'
+import Agoraentendifull from './Agoraeuentendifull.wav'
+import Badumtss from './Badumtss.wav'
 import Ceeobixaomesmo from './Ceeobixaomesmo.wav'
 import Comovoceeburro from './Comovoceeburro.wav'
 import Essasopcao from './Essasopcao.wav'
@@ -15,9 +16,9 @@ import Vaidarmerda from './Vaidarmerda.wav'
 import thumbs from '../images'
 
 export default [
-  { title: 'Agora eu entendi (short)', audioFile: new Audio(AgoraEntendiShort), thumb: thumbs.AgoraEntendi },
-  { title: 'Agora eu entendi (full)', audioFile: new Audio(AgoraEntendiFull), thumb: thumbs.AgoraEntendi },
-  { title: 'Ba dum tss', audioFile: new Audio(BaDumTss), thumb: thumbs.BaDumTss },
+  { title: 'Agora eu entendi (short)', audioFile: new Audio(Agoraentendishort), thumb: thumbs.Agoraentendi },
+  { title: 'Agora eu entendi (full)', audioFile: new Audio(Agoraentendifull), thumb: thumbs.Agoraentendi },
+  { title: 'Ba dum tss', audioFile: new Audio(Badumtss), thumb: thumbs.Badumtss },
   { title: 'Cê é o bixão mesmo', audioFile: new Audio(Ceeobixaomesmo), thumb: thumbs.Ceeobixaomesmo },
   { title: 'Como vc é burro', audioFile: new Audio(Comovoceeburro), thumb: thumbs.Comovoceeburro },
   { title: 'Essas opção', audioFile: new Audio(Essasopcao), thumb: thumbs.Essasopcao },
@@ -25,5 +26,6 @@ export default [
   { title: 'O filadaputa', audioFile: new Audio(Ofiladaputa), thumb: thumbs.Ofiladaputa },
   { title: 'Resolvam', audioFile: new Audio(Resolvam), thumb: thumbs.Resolvam },
   { title: 'Vai dar merda', audioFile: new Audio(Vaidarmerda), thumb: thumbs.Vaidarmerda },
-  { title: 'Hello Darkness', audioFile: new Audio(Hellodarness), thumb: thumbs.Hellodarkness }
+  { title: 'Hello Darkness', audioFile: new Audio(Hellodarness), thumb: thumbs.Hellodarkness },
+  { title: 'Acerto Mizeravi', audioFile: new Audio(Acertomizeravi), thumb: thumbs.Acertomizeravi }
 ]
